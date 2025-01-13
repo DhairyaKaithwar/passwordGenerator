@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 540px;
+  padding: 20px 40px;
+  background-color: rgb(237, 204, 154);
+  border-radius: 50px;
+  width: 500px;
+  margin: auto;
+}
+
+.btn{
+  cursor: pointer;
+  gap: 5px;
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-color: brown;
+  color: white;
+  transition: padding 1s ease;
+
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
